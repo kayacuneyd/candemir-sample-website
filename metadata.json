@@ -1,0 +1,5 @@
+{
+  "name": "Candemir's Barber Shop",
+  "description": "A modern, single-page website for a local barbershop, allowing customers to view services and request appointments via WhatsApp. Includes an AI-powered hairstyle suggester.",
+  "requestFramePermissions": []
+}
