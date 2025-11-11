@@ -5,7 +5,8 @@ const HeroSection: React.FC = () => {
   return (
     <section 
       className="relative flex items-center justify-center h-screen bg-cover bg-center"
-      style={{ backgroundImage: "url('https://picsum.photos/seed/barberhero/1920/1080')" }}
+      // Place your hero image as `public/hero.jpg` (see README below). Vite serves files in `/public` at root.
+      style={{ backgroundImage: "url('/candemirbarber.png')" }}
     >
       <div className="absolute inset-0 bg-black bg-opacity-60"></div>
       <div className="relative z-10 text-center text-white px-4">

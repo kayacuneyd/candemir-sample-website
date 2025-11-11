@@ -26,7 +26,7 @@ const ContactSection: React.FC = () => {
 
     const message = `Neue Terminanfrage:\n\nName: ${name}\nTelefon: ${phone}\nService: ${service}\nWunschdatum: ${date}`;
     const encodedMessage = encodeURIComponent(message);
-    const whatsappNumber = "491712345678"; // Replace with actual number
+    const whatsappNumber = "4915205775326"; // Replace with actual number
     const whatsappUrl = `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=${encodedMessage}`;
 
     window.open(whatsappUrl, '_blank');
